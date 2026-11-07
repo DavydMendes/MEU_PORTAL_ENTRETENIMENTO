@@ -1,0 +1,29 @@
+/* CSS Reset baseado no modelo de Eric Meyer */
+
+/* Remove margens e espaçamentos padrões */
+html, body, div, span, h1, h2, p, img,
+section, header, footer, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Padroniza o tamanho dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Define o comportamento das imagens */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Define o espaçamento entre linhas */
+body {
+    line-height: 1;
+}
